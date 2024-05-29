@@ -6,12 +6,12 @@
         <li><strong>Clonar el repositorio:</strong>
             <pre><code>git clone https://github.com/sunshine772/pop_be.git</code></pre>
         </li>
-        <li><strong>Crear y activar un entorno virtual:</strong>
+        <!-- <li><strong>Crear y activar un entorno virtual:</strong>
             <pre>
                 <code>cd pop_be<br>python -m venv env<br>source env/bin/activate   # En Linux/MacOS<br>env\Scripts\activate      # En Windows
                 </code>
             </pre>
-        </li>
+        </li> -->
         <li><strong>Instalar las dependencias del proyecto:</strong>
             <pre><code>pip install -r requirements.txt</code></pre>
         </li>
