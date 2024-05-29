@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - pop_be</title>
-</head>
 <body>
     <h1>pop_be</h1>
     <p>Este es un proyecto de FastAPI.</p>
@@ -15,11 +8,7 @@
         </li>
         <li><strong>Crear y activar un entorno virtual:</strong>
             <pre>
-                <code>
-cd pop_be<br>
-python -m venv env<br>
-source env/bin/activate   # En Linux/MacOS<br>
-env\Scripts\activate      # En Windows
+                <code>cd pop_be<br>python -m venv env<br>source env/bin/activate   # En Linux/MacOS<br>env\Scripts\activate      # En Windows
                 </code>
             </pre>
         </li>
@@ -35,4 +24,3 @@ env\Scripts\activate      # En Windows
         </li>
     </ol>
 </body>
-</html>

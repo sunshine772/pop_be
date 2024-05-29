@@ -1,15 +1,14 @@
 from pydantic import BaseModel
 
 class ImagenBase(BaseModel):
-    ruta: str
     nombre: str
     tipo: str
     tamaño: int
     estado: bool
 
 class ImagenCreate(ImagenBase):
-    pass
-
+    imagen: bytes
+    
 class Imagen(ImagenBase):
     imagen_id: int
 
