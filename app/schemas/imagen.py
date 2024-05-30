@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from typing import Optional
 
 class ImagenBase(BaseModel):
     nombre: str
@@ -8,9 +9,10 @@ class ImagenBase(BaseModel):
 
 class ImagenCreate(ImagenBase):
     imagen: bytes
-    
+
 class Imagen(ImagenBase):
     imagen_id: int
+    imagen: Optional[str] = None
 
     class Config:
         orm_mode = True
