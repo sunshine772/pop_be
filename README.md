@@ -1,5 +1,5 @@
 <body>
-    <h1>pop_be</h1>
+    <h1>BACKEND</h1>
     <p>Este es un proyecto de FastAPI.</p>
     <h2>Cómo montar y ejecutar el proyecto FastAPI:</h2>
     <ol>
